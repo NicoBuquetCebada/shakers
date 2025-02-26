@@ -1,0 +1,72 @@
+.trastiendaForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+	height: 100vh;
+	width: 40vw;
+	position: fixed;
+	z-index: 1000;
+	background-color: #1f2634;
+	left: 0;
+	top: 0;
+	border-right: 3px solid #316ef1aa;
+}
+
+.ghost {
+	width: 40%;
+	margin: 0;
+	padding: 0;
+}
+
+.trastienda {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
+	gap: 15px;
+}
+
+.loginTitulo {
+	
+}
+
+.trasP {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 95%;
+	height: 25vh;
+	background-color: #243347;
+	border-radius: 10px;
+	transition: background-color 300ms ease-in-out;
+}
+
+.trasP:hover {
+	background-color: #2f425b;
+}
+.trashP {
+	transition: fill 150ms ease-in-out;
+}
+.trasP svg:hover .trashP {
+	fill: rgb(253, 73, 73);
+	cursor: pointer;
+}
+
+.trasImg {
+	max-height: 80%;
+	object-fit: contain;
+	border-radius: 10px;
+}
+
+.trasInfo {
+	width: 50%;
+	height: 80%;
+	text-align: start;
+}
+
+.trasInfo h2 {
+	font-family: "Bebas Neue", serif;
+	font-weight: 400;
+	font-style: normal;
+}

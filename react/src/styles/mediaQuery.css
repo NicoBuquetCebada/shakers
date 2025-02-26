@@ -1,0 +1,220 @@
+/* Extra pequeños */
+@media (max-width: 576px) {
+	/* INDEX */
+	.aImg {
+		width: 70% !important;
+	}
+	.enlaces {
+		width: 30% !important;
+	}
+
+	.tiendaTitulo {
+		font-size: larger;
+	}
+
+	.footer-logo {
+		display: none !important;
+	}
+	.footer-links {
+		width: 100% !important;
+		text-align: start;
+	}
+	.footer-links ul {
+		justify-content: space-between;
+	}
+	.footer-links li {
+		width: 40% !important;
+	}
+	.footer-links a {
+		font-size: small !important;
+	}
+
+	/* LOGIN | REGISTER */
+	.loginForm {
+		width: 100% !important;
+	}
+	.registerForm {
+		width: 100% !important;
+		height: 65vh !important;
+	}
+	.registerForm button {
+		margin-top: 20px;
+	}
+	.loginDivLogo {
+		display: none !important;
+	}
+
+	/* TRASTIENDA */
+	.trastiendaForm {
+		position: relative !important;
+		width: 100vw !important;
+		display: none !important;
+	}
+	.ghost {
+		display: none !important;
+	}
+	.trastienda {
+		width: 100vw !important;
+	}
+	.trasInfo {
+		width: 30% !important;
+	}
+	.desc {
+		display: none;
+	}
+}
+
+/* Pequeños */
+@media (min-width: 576px) and (max-width: 768px) {
+		/* INDEX */
+		.aImg {
+			width: 70% !important;
+		}
+		.enlaces {
+			width: 30% !important;
+		}
+		.pMain {
+			justify-content: center;
+		}
+		.tiendaTitulo {
+			margin-left: 0 !important;
+			text-align: center !important;
+		}
+	
+		.footer-logo {
+			display: none !important;
+		}
+		.footer-links {
+			width: 100% !important;
+			text-align: start;
+		}
+		.footer-links ul {
+			justify-content: space-between;
+		}
+		.footer-links li {
+			width: 40% !important;
+		}
+		.footer-links a {
+			font-size: small !important;
+		}
+	
+		/* LOGIN | REGISTER */
+		.loginForm {
+			width: 100% !important;
+		}
+		.registerForm {
+			width: 100% !important;
+			height: 65vh !important;
+		}
+		.registerForm button {
+			margin-top: 20px;
+		}
+		.loginDivLogo {
+			display: none !important;
+		}
+	
+		/* TRASTIENDA */
+		.trastiendaForm {
+			position: relative !important;
+			width: 100vw !important;
+			display: none !important;
+		}
+		.ghost {
+			display: none !important;
+		}
+		.trastienda {
+			width: 100vw !important;
+		}
+		.trasInfo {
+			width: 30% !important;
+		}
+		.desc {
+			display: none;
+		}
+}
+
+/* Medianos */
+@media (min-width: 768px) and (max-width: 992px) {
+	/* INDEX */
+	.aImg {
+		width: 70% !important;
+	}
+	.enlaces {
+		width: 30% !important;
+	}
+	.tiendaTitulo {
+		margin-left: 0 !important;
+		text-align: center !important;
+	}
+	.pMain {
+		justify-content: center;
+	}
+	.pCarta {
+		width: 70% !important;
+	}
+	.pImg {
+		max-width: 80% !important;
+	}
+
+	.footer-logo {
+		display: none !important;
+	}
+	.footer-links {
+		width: 100% !important;
+		text-align: start;
+	}
+	.footer-links ul {
+		justify-content: space-between;
+	}
+	.footer-links li {
+		width: 40% !important;
+	}
+	.footer-links a {
+		font-size: small !important;
+	}
+	/* LOGIN | REGISTER */
+	.loginForm {
+		width: 100% !important;
+	}
+	.registerForm {
+		width: 100% !important;
+		height: 65vh !important;
+	}
+	.registerForm button {
+		margin-top: 20px;
+	}
+	.loginDivLogo {
+		display: none !important;
+	}
+	.trasInfo {
+		width: 30% !important;
+	}
+	.desc {
+		display: none;
+	}
+}
+
+/* Grandes */
+@media (min-width: 992px) and (max-width: 1450px) {
+	.tiendaTitulo {
+		margin-left: 80px !important;
+	}
+	.pMain {
+		justify-content: center;
+	}
+	.pCarta {
+		width: 45% !important;
+	}
+	.trasInfo {
+		width: 50% !important;
+	}
+	.desc {
+		display: none;
+	}
+	.registerForm {
+		height: 65vh !important;
+	}
+}
+
+/* Extra grandes */
+@media (min-width: 1200px) {}

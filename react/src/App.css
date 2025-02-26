@@ -1,0 +1,433 @@
+/* Estilos de los componentes de react */
+#root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+.logo {
+	height: 15em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+.logo:hover {
+ 	filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  	padding: 2em;
+}
+
+.read-the-docs {
+  	color: #888;
+}
+
+/* LOGIN */
+.registerForm {
+	height: 50vh;
+	width: 40%;
+}
+
+.loginForm {
+	width: 40%;
+	height: 35vh;
+}
+
+.loginFormTitulo {
+	font-family: "Bebas Neue", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: xx-large;
+	color: #b7c8ec;
+}
+
+.loginInput {
+	background-color: #171c27;
+	width: 300px;
+}
+
+.loginButton {
+	width: 300px;
+}
+
+.loginDivLogo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	height: 100vh;
+	background-color: #111825;
+	border-left: 3px solid #316ef1aa;
+}
+
+.loginTitulo {
+	width: 100%;
+	height: 20%;
+	font-family: "Bebas Neue", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #92aee4;
+}
+
+.loginImg {
+	height: 45%;
+	object-fit: fit;
+	will-change: filter;
+	transition: filter 300ms;
+	animation: effect 3s infinite;
+}
+@keyframes effect {
+  0%, 100% {
+	filter: none;
+  }
+  50% {
+	filter: drop-shadow(0 0 3em #316ef1aa);
+  }
+}
+
+.error {
+	color: rgb(255, 41, 41);
+	font-size: large;
+}
+
+.pRegistrate {
+	color: #3a7fff;
+}
+
+.pRegistrate:hover {
+	color: #3c6abe;
+}
+
+/* INDEX */
+.indexMain {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 7vh;
+}
+/* Header */
+.header {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	height: 7vh;
+	background-color: #1f2634;
+	border-bottom: 0.1px solid;
+}
+
+.aImg {
+	display: flex;
+	align-items: center;
+	width: 20%;
+	margin-right: auto;
+}
+.aImg:hover .headerImg,
+.aImg:hover .headerL {
+	filter: drop-shadow(0 0 0.5em #316ef1aa);
+}
+.headerImg {
+	width: 20%;
+	height: 75%;
+	object-fit: contain;
+	will-change: filter;
+	transition: filter 300ms ease-in-out;
+}
+.headerL {
+	height: 65%;
+	object-fit: contain;
+	transition: filter 300ms ease-in-out;
+}
+
+
+.enlaces {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 15%;
+	margin-right: 10px;
+}
+.enlaces>a {
+	font-size: larger;
+	font-weight: 600;
+	will-change: filter;
+	transition: filter 300ms ease-in-out;
+	position: relative;
+	height: 100%;
+	width: 20%;
+}
+.enlaces>a:hover {
+	filter: drop-shadow(0 0 0.5em #316ef1aa);
+}
+.enlaces>a:hover .svg1>path,
+.enlaces>a:hover .svg2>circle {
+	fill: #92aee4;
+}
+.svg1>path,
+.svg2>circle {
+	transition: fill 300ms ease-in-out;
+}
+.enlaces>a::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	height: 5px;
+	bottom: 0;
+	left: 0;
+	background-color: #92aee4;
+	transition: opacity 0.3s ease-in-out;
+}
+.enlaces>a:hover::after {
+	opacity: 1;
+}
+.enlaces>a>svg {
+	height: 100%;
+}
+
+/* Slider */
+.carousel {
+	width: 100%;
+	max-height: 85vh;
+	border-top: 1px solid;
+}
+.containerImage {
+	width: 100vw;
+	max-height: 85vh;
+}
+.sImg {
+	width: 100%;
+	height: 100%;
+	max-height: 85vh;
+	object-position: center;
+	object-fit: cover;
+}
+
+/* Main */
+.tiendaTitulo {
+	width: 90%;
+	text-align: start;
+	margin-left: 40px;
+	font-family: "Bebas Neue", serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+.pMain {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	width: 90%;
+}
+
+.pCarta {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	height: 600px;
+	background-color: #243347;
+	transition: background-color 300ms ease-in-out;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.pCarta:hover {
+	background-color: #2f425b;
+}
+
+.pImg {
+	max-width: 90%;
+	object-fit: contain;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.pCarta h3 {
+	font-family: "Bebas Neue", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: x-large;
+}
+
+.pP {
+	text-align: start;
+	width: 90%;
+	padding: 0;
+	margin: 0;
+}
+
+/* Footer */
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 50vh;
+	margin-top: 50px;
+	background-repeat: no-repeat;
+	background-position: start;
+	background-size: cover;
+	background-image: url('./assets/footer2.png');
+}
+
+/* Estilo para los iconos de redes sociales */
+.footer-social-icons {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 20px;
+	width: 95%;
+	height: 20%;
+	border-bottom: 5px solid #316ef1aa;
+}
+
+.footer-social-icons a:hover .path {
+	fill: #92aee4;
+}
+
+.path {
+	transition: fill 150ms ease-in-out; 
+}
+
+.footer-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 75%;
+	height: 80%;
+}
+
+.footer-logo {
+	display: flex;
+	width: 20%;
+	height: 80%;
+}
+
+.footer-logo img {
+	max-width: 200px;
+	object-fit: contain;
+	animation: effect 3s infinite;
+}
+
+.footer-links {
+	width: 80%;
+	height: 80%;
+}
+
+.footer-links ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-links li {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	width: 25%;
+}
+
+.footer-links a {
+	font-weight: bold;
+	font-size: large;
+}
+
+/* PRODUCTO */
+.cProducto {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 95%;
+	height: 75vh;
+}
+
+.cImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	height: 90%;
+}
+
+.cImg img {
+	max-width: 600px;
+	object-fit: contain;
+	border-radius: 10px;
+}
+
+.cInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 60%;
+	height: 40%;
+	text-align: start;
+}
+
+.cInfo h1 {
+	font-family: "Bebas Neue", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.cInfo p {
+	font-size: larger;
+}
+
+.cInfo form {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: end;
+	margin-bottom: 30px;
+	gap: 30px;
+}
+
+.cInfo form>input {
+	padding: 10px;
+	background-color: #171c27;
+	border: 0;
+}
+
+.cInfo form>button {
+	width: 200px;
+}
+
+.carga {
+	max-width: 200px;
+}
+
+.dSvg {
+	cursor: pointer;
+}
+
+.dInfo {
+	width: 70%;
+	height: 80%;
+	text-align: start;
+}
+
+.histP {
+	font-size: large;
+	font-weight: bold;
+}

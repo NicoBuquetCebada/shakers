@@ -1,0 +1,26 @@
+.uCont {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	text-align: start;
+}
+
+.uInfo {
+	display: flex;
+	flex-direction: column;
+}
+.uInfo h2 {
+	font-family: "Bebas Neue", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: xx-large;
+	color: #316ef1aa;
+}
+
+.uInfo span {
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.uImg {
+	animation: effect 3s infinite;
+}
